@@ -23,7 +23,7 @@ namespace EnviarCorreo.Nativo
         private async void btnReportar_Click(object sender, EventArgs e)
         {
             ServiceHelper serviceHelper = new ServiceHelper();
-            await serviceHelper.InsertarEntidad("maratona@microsoft.com", "Acompanhando a Maratona da cidade de [ESCREVA O NOME DA SUA CIDADE]");
+			await serviceHelper.InsertarEntidad("maratona@microsoft.com", "Acompanhando a Maratona da cidade de Cork/Irlanda (VS/Mac)");
             button.Text = "Teste enviado";
         }
     }
